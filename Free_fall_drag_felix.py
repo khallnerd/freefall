@@ -73,11 +73,11 @@ print ('vertical position', "%.4f" % y[-1])
 
 
 
-'''#Plot the results
+"""#Plot the results
 plt.plot(t,y,linewidth=2, color='red')
-plt.xlabel('Horizontal Position (m)')
+plt.xlabel('Time (s)')
 plt.ylabel('Vertical Position (m)')
 plt.title('Position of Felix')
 
 #Save the plot
-#plt.savefig('Felix_drag.pdf')'''
+plt.savefig('Felix_drag.pdf')"""
