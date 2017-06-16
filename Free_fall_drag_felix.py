@@ -74,10 +74,10 @@ print ('vertical position', "%.4f" % y[-1])
 
 
 '''#Plot the results
-plt.plot(x,y,linewidth=2, color='red')
+plt.plot(t,y,linewidth=2, color='red')
 plt.xlabel('Horizontal Position (m)')
 plt.ylabel('Vertical Position (m)')
-plt.title('Position of a projectile w/ drag')
+plt.title('Position of Felix')
 
 #Save the plot
-#plt.savefig('Lab_7_plot_drag.pdf')'''
+#plt.savefig('Felix_drag.pdf')'''
