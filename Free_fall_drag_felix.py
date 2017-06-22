@@ -7,22 +7,22 @@ import matplotlib.pyplot as plt
 
 
 #Initial conditions and physical setup constants
-angle=90
-v0=0
-vx0=v0*np.cos(np.deg2rad(angle)) #initial x velocity in m/s
-vy0=v0*np.sin(np.deg2rad(angle)) #initial x velocity in m/s
-x0=0 #Initial x position in m
-y0=30480 #initial y position in m
-D=1.5 #Drag coefficient
+angle = 90
+v0    = 0
+vx0   = v0*np.cos(np.deg2rad(angle)) #initial x velocity in m/s
+vy0   = v0*np.sin(np.deg2rad(angle)) #initial x velocity in m/s
+x0    = 0 #Initial x position in m
+y0    = 30480 #initial y position in m
+D     = 1.5 #Drag coefficient
 #r=.75 #radius of sphere in m
-p=1.29 #density of air in kg/m^3
-m=118.0 #mass of projectile in kg
-g=-9.8 #acceleration caused by gravity in m/s^2
-A=0.25 #Area of the projectile in m^2
+p     = 1.29 #density of air in kg/m^3
+m     = 118.0 #mass of projectile in kg
+g     = -9.8 #acceleration caused by gravity in m/s^2
+A     = 0.25 #Area of the projectile in m^2
 
 #Set up the time steps and number of calculations
-delta_t=0.1 #time step in seconds
-t0=0 #start time in seconds
+delta_t = 0.1 #time step in seconds
+t0      = 0 #start time in seconds
 '''t_max = 445.8 #final time in seconds
 
 #Calculate the number of time steps we need to make
