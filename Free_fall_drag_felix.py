@@ -45,9 +45,9 @@ while y[-1] > 0:
 	# increment velocity
 	v  = np.sqrt(vx[-1] ** 2 + vy[-1] ** 2)
 	# find the current vertical acceleration
-	ay = g - (1/2 * D * p * A * v * vy[-1]) / m
+	ay = g - (1/2 * D * p * A * vy[-1] ** 2) / m
 	# The current horizontal acceleration
-	ax = (-1/2 * D * p * A * v * vx[-1]) / m
+	ax = (-1/2 * D * p * A * vx[-1] ** 2) / m
 
 	# Find the next vertical velocity
 	vy.append(vy[-1] + ay * delta_t)
